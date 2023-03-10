@@ -28,5 +28,7 @@ import { Link } from "react-router-dom";
     </div>
   );
 };
+<h1>Currencies</h1> 
+
 
 export default Currencies
