@@ -6,7 +6,7 @@ import Main from "./pages/Main";
 import Price from "./pages/Price";
 import Nav from './components/Nav';
 
-export default function App () {
+export default function App (props) {
   // We will use the Route component to specify each route
   return (
     <div className="App">
