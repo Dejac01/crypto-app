@@ -8,6 +8,9 @@ import {Link} from 'react-router-dom'
       <Link to="/currencies">
         <div>Popular Crypto</div>
       </Link>
+      <Link to="/stocks/:symbols">
+        <div>Popular Stocks</div>
+      </Link>
       <Link to="/">
         <div>Crypto Prices</div>
       </Link>

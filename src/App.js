@@ -9,6 +9,7 @@ import App2 from './App2';
 import Stocks from "./components/Stocks";
 import Dashboard from "./components/Dashboard";
 
+
 export default function App (props) {
   // We will use the Route component to specify each route
   return (
