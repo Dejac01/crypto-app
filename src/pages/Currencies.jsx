@@ -17,7 +17,7 @@ import { Link } from "react-router-dom";
   return (
 
     <div className="currencies">
-      <h1>Crypto</h1> 
+      <h1>Learn More About Each Crypto!</h1> 
       {currencies.map((coin,key) => {
         const { name, symbol } = coin;
 
