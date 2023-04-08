@@ -1,8 +1,11 @@
 import React from 'react'
 
-function Main(props) {
+function Main(props)
+ {
   return (
-    <h1>Main</h1>
+    
+    <h1>Current Prices</h1>
+   
   )
 }
 

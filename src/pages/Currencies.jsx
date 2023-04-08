@@ -15,18 +15,20 @@ import { Link } from "react-router-dom";
   ];
 
   return (
+
     <div className="currencies">
+      <h1>Crypto</h1> 
       {currencies.map((coin,key) => {
         const { name, symbol } = coin;
 
         return (
-          <Link key={key}to={`/price/${symbol}`}>
+          <Link key={key}to={`https://crypto.com/price`}>
             <h2>{name}</h2>
           </Link>
         );
       })}
    
-<h1>Currencies</h1> 
+
 
 </div>
   );

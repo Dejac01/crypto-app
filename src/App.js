@@ -5,6 +5,7 @@ import Currencies from "./pages/Currencies";
 import Main from "./pages/Main";
 import Price from "./pages/Price";
 import Nav from './components/Nav';
+import App2 from './App2';
 
 export default function App (props) {
   // We will use the Route component to specify each route
@@ -13,7 +14,7 @@ export default function App (props) {
       <Nav/>
 
     <Routes>
-      <Route path="/" element={<Main/>}/>
+      <Route path="/" element={<App2/>}/>
       <Route path="/currencies" element={<Currencies/>}/>
       <Route path="/price/:symbols" element={<Price/>}/>
     </Routes>
